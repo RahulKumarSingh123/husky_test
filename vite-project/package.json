@@ -10,6 +10,12 @@
     "preview": "vite preview",
     "precommit": "npm run prettier:write"
   },
+  "lint-staged": {
+  "**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "prettier --write"
+  ]
+},
+
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
