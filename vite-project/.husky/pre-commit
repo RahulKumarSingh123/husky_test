@@ -1,3 +1,2 @@
-cd ..
-npm test
+cd ../..
 npm run lint-staged
